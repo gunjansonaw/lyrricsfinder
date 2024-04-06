@@ -63,4 +63,4 @@ To run LyricsFinder locally, follow these steps:
 Happy music exploration with LyricsFinder!
 ```
 
-You can replace "your-username" with your actual GitHub username and customize the content as needed.
+
