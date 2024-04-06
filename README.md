@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Here's a README.md template for your "LyricsFinder" project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# LyricsFinder
 
-## Available Scripts
+LyricsFinder is a React web application that allows users to search for song lyrics by entering the artist and song name. Users can also switch between dark and light modes, download lyrics in PDF format, and enjoy a clean and intuitive user interface.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Lyrics Search:** Enter the artist and song name to fetch and display the lyrics.
+- **Dark/Light Mode:** Toggle between dark and light modes for a personalized viewing experience.
+- **Download Lyrics:** Download lyrics in PDF format for offline access.
+- **Clean UI:** Simple and user-friendly interface for easy navigation and interaction.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Axios
+- Reactstrap
+- Last.fm API
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run LyricsFinder locally, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/LyricsFinder.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+   ```sh
+   cd LyricsFinder
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the development server:
+   ```sh
+   npm start
+   ```
 
-### `npm run eject`
+5. Open your browser and visit http://localhost:3000 to view LyricsFinder.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Enter the artist name and song name in the input fields.
+2. Click on "Show Me the Lyrics!" to fetch and display the lyrics.
+3. Toggle between dark and light modes using the button provided.
+4. Download lyrics in PDF format using the "Download PDF" button.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Acknowledgements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Last.fm for providing the API used in this project.
+- React community for their amazing libraries and tools.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Happy music exploration with LyricsFinder!
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can replace "your-username" with your actual GitHub username and customize the content as needed.
